@@ -46,7 +46,9 @@
 
 	'use strict';
 
-	var newAlert = __webpack_require__(1);newAlert();
+	var newAlert = __webpack_require__(1);
+
+	newAlert();
 
 /***/ },
 /* 1 */
