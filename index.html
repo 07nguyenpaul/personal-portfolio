@@ -2,10 +2,36 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Paul Nguyen</title>
+  <meta name="viewport" content="width=device-width">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Raleway" rel="stylesheet">
+<title>Paul Nguyen</title>
 </head>
 <body>
-  <h1>Luke, I am your father.</h1>
+  <header>
+    <nav>
+      <a href="#home-page">
+        <img class="logo" src="./photos/ninja.png" alt="homepage-logo">
+      </a>
+      <ul class="primary-content">
+        <li class="website-nav"> <a href="#portfolio">Portfolio</a></li>
+        <li class="website-nav"> <a href="#about">About</a></li>
+        <li class="website-nav"> <a href="#contact">Contact</a></li>
+      </ul>
+      <div class="overlay" id="photoNav">
+        <a class="close-nav" href="#" onclick="closeNav()">𝗫</a>
+        <div class="overlay-content">
+          <ul>
+            <li class="mobile-nav"> <a href="#portfolio" onclick="closeNav()">Portfolio</a></li>
+            <li class="mobile-nav"> <a href="#about" onclick="closeNav()">About</a></li>
+            <li class="mobile-nav"> <a href="#contact" onclick="closeNav()">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <img class="hamburger-menu" src="./photos/hamburger_menu.svg" alt="hamburger-menu" onclick="openNav()">
+    </nav>
+  </header>
+
+  <script src="jQuery.js"></script>
   <script src="main.bundle.js"></script>
 </body>
 </html>
