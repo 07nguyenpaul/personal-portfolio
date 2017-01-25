@@ -2,36 +2,39 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif|Roboto" rel="stylesheet">
   <meta name="viewport" content="width=device-width">
-  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Raleway" rel="stylesheet">
 <title>Paul Nguyen</title>
 </head>
 <body>
   <header>
     <nav>
-      <a href="#home-page">
-        <img class="logo" src="./photos/ninja.png" alt="homepage-logo">
-      </a>
-      <ul class="primary-content">
-        <li class="website-nav"> <a href="#portfolio">Portfolio</a></li>
-        <li class="website-nav"> <a href="#about">About</a></li>
-        <li class="website-nav"> <a href="#contact">Contact</a></li>
+      <ul>
+        <a href="#home">
+          <img class="logo" src="./photos/ninja.png" alt="logo">
+          <!-- <img class="logo" src="./photos/Logo.svg" alt="logo"> -->
+        </a>
+        <li class="main-nav">
+          <a href="#portfolio">Portfolio</a>
+        </li>
+        <li class="main-nav">
+          <a href="#about">About</a>
+        </li>
+        <li class="main-nav">
+          <a href="#contact">Contact</a>
+        </li>
       </ul>
-      <div class="overlay" id="photoNav">
-        <a class="close-nav" href="#" onclick="closeNav()">𝗫</a>
-        <div class="overlay-content">
-          <ul>
-            <li class="mobile-nav"> <a href="#portfolio" onclick="closeNav()">Portfolio</a></li>
-            <li class="mobile-nav"> <a href="#about" onclick="closeNav()">About</a></li>
-            <li class="mobile-nav"> <a href="#contact" onclick="closeNav()">Contact</a></li>
-          </ul>
-        </div>
+
+      <div id="mySideNav" class="sideNav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a class="mobile-nav" href="#portfolio">Portfolio</a>
+        <a class="mobile-nav" href="#about">About</a>
+        <a class="mobile-nav" href="#contact">Contact</a>
       </div>
-      <img class="hamburger-menu" src="./photos/hamburger_menu.svg" alt="hamburger-menu" onclick="openNav()">
+      <div class="hamburger-menu">&#9776;</div>
     </nav>
   </header>
 
-  <script src="jQuery.js"></script>
   <script src="main.bundle.js"></script>
 </body>
 </html>
