@@ -1,0 +1,42 @@
+body {
+  background-color: #34495E;
+}
+
+section.container.static {
+  padding: 75px 15px;
+  width: 87.5%;
+  margin: auto;
+  background-color: #EFF0F4;
+}
+
+section.container.parallax {
+  width: 90%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+  margin: auto;
+}
+
+section.container.parallax h1 {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 600px;
+  color: rgba(255,255,255,0.8);
+  font-family: sans-serif;
+  text-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+section.container.parallax-1 {
+  background-image: url('../../photos/follow_the_path.jpg')
+}
+
+section.container.parallax-2 {
+  background-image: url('../../photos/winter_road.jpg')
+}
+
+section.container.parallax-3 {
+  background-image: url('../../photos/work.jpg')
+}
