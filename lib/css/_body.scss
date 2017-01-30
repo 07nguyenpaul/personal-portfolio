@@ -1,0 +1,55 @@
+body {
+  background-color: #34495E;
+}
+
+/* PARALLAX CONTENT */
+section.container.static {
+  background-color: #EFF0F4;
+  margin: auto;
+  padding: 75px 15px;
+  width: 87%;
+}
+
+/* PARALLAX IMAGE SIZE */
+section.container.parallax {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+  height: 700px;
+  margin: auto;
+  width: 90%;
+}
+
+section.container.parallax h1 {
+  color: rgba(255,255,255,0.8);
+  font-family: sans-serif;
+  font-size: 40px;
+  line-height: 600px;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(0,0,0,0.2);
+  text-transform: uppercase;
+}
+
+/* PARALLAX IMAGES */
+section.container.parallax-1 {
+  background-image: url('../../photos/follow_the_path.jpg')
+}
+
+section.container.parallax-2 {
+  background-image: url('../../photos/winter_road.jpg')
+}
+
+section.container.parallax-3 {
+  background-image: url('../../photos/work.jpg')
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 550px) {
+  section.container.static {
+    width: 100%;
+  }
+  section.container.parallax {
+    width: 100%;
+  }
+}
