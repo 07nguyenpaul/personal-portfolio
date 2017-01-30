@@ -6,15 +6,16 @@ body {
 section.container.static {
   background-color: #EFF0F4;
   margin: auto;
-  padding: 75px 15px;
-  width: 87%;
+  /* padding: 75px 15px; */
+  width: 90%;
+  height: 300px;
 }
 
 /* PARALLAX IMAGE SIZE */
 section.container.parallax {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 55% 30%;
   background-attachment: fixed;
   height: 700px;
   margin: auto;
