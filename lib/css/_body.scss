@@ -26,10 +26,11 @@ section.container.parallax {
 
 section.container.parallax h1 {
   color: rgba(255,255,255,0.8);
+  /* color: $white-accent-color; */
   font-family: sans-serif;
   font-size: 40px;
   line-height: 600px;
-  text-align: center;
+  margin-left: 30px;
   text-shadow: 0 0 10px rgba(0,0,0,0.2);
   text-transform: uppercase;
 }
