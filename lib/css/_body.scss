@@ -1,14 +1,16 @@
 body {
-  background-color: #34495E;
+  background-color: $darker-blue-accent-color;
 }
 
 /* PARALLAX CONTENT */
 section.container.static {
-  background-color: #EFF0F4;
+  background-color: $white-accent-color;
   margin: auto;
-  /* padding: 75px 15px; */
   width: 90%;
-  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 30px solid $light-blue-accent-color;
+  border-bottom: 30px solid $light-blue-accent-color;
 }
 
 /* PARALLAX IMAGE SIZE */

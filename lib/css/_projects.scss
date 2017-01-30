@@ -1,0 +1,39 @@
+/* WRAPPER FOR EACH CARD */
+.content-card {
+  background-color: $white-accent-color;
+  border: 3px solid black;
+  border-radius: 4px;
+  box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.19), 6px 6px 6px 0px rgba(0,0,0,0.23);
+  display: flex;
+  flex-direction: column;
+  margin: 5vh auto;
+  text-align: center;
+  width: 300px;
+}
+
+/* CARD TITLE */
+.content-card-title {
+  font-family: $font-novo;
+  font-size: 1.2em;
+  margin: 10px 0 10px 0;
+}
+
+/* DESCRIPTION OF EACH PROJECT */
+.content-card-text {
+  font-family: $font-lato;
+  line-height: 20px;
+}
+
+/* CARD LINK */
+.content-card-link, .content-card-text, .content-card-text a {
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.content-card-link {
+  color: $darker-blue-accent-color;
+}
+
+.content-card-link:hover {
+  font-size: 1.3em;
+}
