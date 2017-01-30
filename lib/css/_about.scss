@@ -27,7 +27,7 @@
   font-family: $font-roboto;
   font-size: 1.1em;
   line-height: 30px;
-  margin: 15px 0 15px 15px;
+  margin: 15px 15px 15px 15px;
 }
 
 /* CONTACT FORM */
@@ -58,8 +58,15 @@ form {
 
 /* SUBMIT BUTTON */
 .submitbtn {
-  background-color: $light-blue-accent-color;
-  border-radius: 1px;
+  background-color: $darker-blue-accent-color;
+  border-radius: 7px;
   text-decoration: none;
-  width: 55px;
+  width: 60px;
+  margin-bottom: 20px;
+  color: $white-accent-color;
+}
+
+.submitbtn:hover {
+  background-color: $light-blue-accent-color;
+  color: black;
 }
