@@ -1,0 +1,65 @@
+.content, .about {
+  display: flex;
+  flex-direction: row;
+}
+
+/* TWO DIV TAG STRUCTURES */
+.about-me, .contact-form {
+  border: 3px solid $darker-blue-accent-color;
+  box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.19), 6px 6px 6px 0px rgba(0,0,0,0.23);
+  border-radius: 1px;
+}
+
+/* ABOUT ME INFO */
+.about-me {
+  margin: 40px 10px 40px 30px;
+}
+
+/* TITLE */
+.about-me h2 {
+  font-family: $font-novo;
+  font-size: 1.7em;
+  margin: 15px 0 0 15px;
+}
+
+/* DESCRIPTION */
+.about-me p {
+  font-family: $font-roboto;
+  font-size: 1.1em;
+  line-height: 30px;
+  margin: 15px 0 15px 15px;
+}
+
+/* CONTACT FORM */
+.contact-form {
+  display: flex;
+  height: 70%;
+  margin: 50px 30px 40px 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.name, .email, .message, .submitbtn {
+  border-radius: 1px;
+  font-family: $font-roboto;
+  font-size: 1.1em;
+  margin: 10px 20px 10px 20px;
+}
+
+/* FORM TITLE */
+.form-title {
+  font-family: $font-novo;
+  font-size: 1.5em;
+  margin: 10px 0 0 20px;
+}
+
+/* SUBMIT BUTTON */
+.submitbtn {
+  background-color: $light-blue-accent-color;
+  border-radius: 1px;
+  text-decoration: none;
+  width: 55px;
+}
