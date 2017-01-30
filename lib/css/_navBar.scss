@@ -1,81 +1,83 @@
 header {
   font-family: 'Noto Serif', serif;
-  width: 90%;
   margin: auto;
+  width: 90%;
 }
 
 nav{
   background-color: #7598bb;
   height: 100px;
+  position: fixed;
+  width: 90%;
 }
 
 /* LOGO */
 .logo {
+  left: 20px;
   position: absolute;
-  left: 80px;
   top: 15px;
 }
 
 /* WEB NAVIGATION MENU */
 .main-nav a {
-  display: flex;
-  justify-content: flex-end;
-  text-decoration: none;
-  font-size: 1.8em;
-  margin: 15px 20px 15px 10px;
   color: #2e3d40;
+  display: flex;
+  font-size: 1.8em;
+  justify-content: flex-end;
+  margin: 15px 20px 15px 10px;
+  text-decoration: none;
 }
 
 ul {
-  display: flex;
-  justify-content: flex-end;
   align-items: center;
+  display: flex;
   height: 100%;
+  justify-content: flex-end;
 }
 
 /* OPEN MOBILE MENU */
 .hamburger-menu {
+  cursor: pointer;
   display: none;
   font-size: 52px;
-  cursor: pointer;
   position: absolute;
 }
 
 /* EXIT BUTTON FOR MOBILE MENU */
 .closebtn {
+  color: #E0E7E9;
+  font-size: 4em;
   position: absolute;
   right: 30px;
-  top: 30px;
-  font-size: 4em;
   text-decoration: none;
-  color: #E0E7E9;
+  top: 30px;
 }
 
  /* MOBILE MENU NAVIGATION */
 .sideNav {
-  width: 0;
-  height: 100%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  right: 0;
   background-color: #000000;
+  height: 100%;
+  opacity: 0.6;
   overflow-x: hidden;
   padding-top: 90px;
-  transition: 0.5s;
+  position: fixed;
+  right: 0;
   text-align: center;
-  opacity: 0.6;
+  top: 0;
+  transition: 0.5s;
+  width: 0;
+  z-index: 1;
 }
 
 .mobile-nav {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 2.6em;
   color: #E0E7E9;
   display: block;
-  transition: 0.3s;
+  font-size: 2.6em;
   line-height: 60px;
   margin-top: 30px;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  transition: 0.3s;
 }
 
 /* HOVER NAVIGATION */
@@ -88,6 +90,10 @@ ul {
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 550px) {
+  nav {
+    left: 0;
+    width: 100%;
+  }
   .main-nav {
     display: none;
   }
