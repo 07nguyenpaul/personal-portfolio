@@ -17,17 +17,17 @@
 
 /* TITLE */
 .about-me h2 {
-  font-family: $font-novo;
-  font-size: 1.7em;
+  font-family: $font-lato;
+  font-size: 1.5em;
   margin: 15px 0 0 15px;
 }
 
 /* DESCRIPTION */
 .about-me p {
-  font-family: $font-roboto;
+  font-family: $font-lato;
   font-size: 1.1em;
   line-height: 30px;
-  margin: 15px 0 15px 15px;
+  margin: 15px 15px 15px 15px;
 }
 
 /* CONTACT FORM */
@@ -44,14 +44,14 @@ form {
 
 .name, .email, .message, .submitbtn {
   border-radius: 1px;
-  font-family: $font-roboto;
+  font-family: $font-lato;
   font-size: 1.1em;
   margin: 10px 20px 10px 20px;
 }
 
 /* FORM TITLE */
 .form-title {
-  font-family: $font-novo;
+  font-family: $font-lato;
   font-size: 1.5em;
   margin: 10px 0 0 20px;
 }
@@ -62,4 +62,40 @@ form {
   border-radius: 1px;
   text-decoration: none;
   width: 55px;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 900px) {
+  .content, .about {
+    flex-direction: column;
+  }
+  .about-me {
+    margin-bottom: 20px;
+    margin-right: 30px;
+  }
+  .contact-form {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .about-me, .contact-form {
+    border: none;
+    box-shadow: none;
+  }
+  .about-me {
+    border-bottom: 2px solid $darker-blue-accent-color;
+    margin: 5px 12px;
+  }
+  .form-title, .name, .email, .message, .submitbtn {
+    margin: 0;
+    margin-top: 25px;
+  }
+  .form-title, .name, .email, .message, {
+    width: 250px;
+  }
+  .form-title {
+    margin-top: 0;
+  }
+
 }
