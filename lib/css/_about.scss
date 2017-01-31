@@ -59,9 +59,14 @@ form {
 /* SUBMIT BUTTON */
 .submitbtn {
   background-color: $light-blue-accent-color;
-  border-radius: 1px;
+  border-radius: 7px;
   text-decoration: none;
-  width: 55px;
+  width: 65px;
+}
+
+.submitbtn:hover {
+  background-color: $darker-blue-accent-color;
+  color: $white-accent-color;
 }
 
 /* MEDIA QUERIES */
