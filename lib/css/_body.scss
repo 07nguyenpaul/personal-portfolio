@@ -48,6 +48,12 @@ section.container.parallax-3 {
 }
 
 /* MEDIA QUERIES */
+@media screen and (max-width: 1030px) {
+  section.container.parallax {
+    background-attachment: scroll;
+  }
+}
+
 @media screen and (max-width: 550px) {
   section.container.static {
     width: 100%;
