@@ -24,7 +24,7 @@ footer {
 }
 
 /* SOCIAL MEDIA ICONS */
-.media-icons img {
+.social-media {
   margin: 20px 10px 20px 10px;
 }
 
@@ -33,7 +33,7 @@ footer {
   footer {
     width: 90%;
   }
-  .media-icons img {
+  .social-media {
     height: 45px;
     width: 45px;
   }
@@ -45,10 +45,10 @@ footer {
     flex-direction: column-reverse;
     width: 100%;
   }
-  footer ul {
-    height: 100%;
-  }
-  .media-icons img {
+/*   footer ul {
+  height: 100%;
+} */
+  .social-media {
     height: 50px;
     width: 50px;
   }
