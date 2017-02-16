@@ -94,6 +94,9 @@ form {
     border-bottom: 2px solid $darker-blue-accent-color;
     margin: 5px 12px;
   }
+  .contact-form {
+    height: 100%;
+  }
   .form-title, .name, .email, .message, .submitbtn {
     margin: 0;
     margin-top: 25px;
