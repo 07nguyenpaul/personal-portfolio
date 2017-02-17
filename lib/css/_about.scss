@@ -55,7 +55,7 @@ form {
 .form-title {
   font-family: $font-lato;
   font-size: 1.5em;
-  margin: 10px 0 0 20px;
+  margin: 10px 0 10px 20px;
 }
 
 /* SUBMIT BUTTON */
@@ -83,9 +83,12 @@ form {
   .contact-form {
     margin-top: 20px;
   }
+  .name, .email, .message, .submitbtn {
+    margin-left: 65px;
+  }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 570px) {
   .about-me, .contact-form {
     border: none;
     box-shadow: none;
@@ -102,7 +105,7 @@ form {
     margin-top: 25px;
   }
   .form-title, .name, .email, .message, {
-    width: 300px;
+    width: 250px;
   }
   .form-title {
     margin-top: 0;
